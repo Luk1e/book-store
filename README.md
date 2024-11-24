@@ -1,4 +1,4 @@
-# Book Store Testing Application
+# Book Store Application
 
 A React-based web application for generating and testing book store data with support for multiple languages, customizable parameters, and infinite scrolling.
 
@@ -23,8 +23,8 @@ A React-based web application for generating and testing book store data with su
 1. Clone the repository:
 
 ```bash
-git clone [your-repository-url]
-cd book-store-testing-app
+git clone https://github.com/Luk1e/book-store.git
+cd book-store
 ```
 
 2. Install dependencies:
@@ -132,8 +132,10 @@ src/
 - `1.5` reviews: Mix of one and two reviews per book
 - And so on...
 
-
-
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details
+ISC
+
+## Author
+
+Luka Gogiashvili
