@@ -2,6 +2,8 @@
 
 A React-based web application for generating and testing book store data with support for multiple languages, customizable parameters, and infinite scrolling.
 
+🔗 **Live Demo**: [https://book-store-2nuv.onrender.com/](https://book-store-2nuv.onrender.com/)
+
 ## Features
 
 - Multi-language support (English, Russian, French)
