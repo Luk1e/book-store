@@ -91,14 +91,14 @@ const BookListing = () => {
       <div className="mt-6">
         {viewMode === "list" ? (
           <div className="space-y-2">
-            {books.map((book,index) => (
-              <BookRow key={book.id} book={book} index={index}/>
+            {books.map((book, index) => (
+              <BookRow key={index} book={book} index={index} />
             ))}
           </div>
         ) : (
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
             {books.map((book) => (
-              <BookGrid key={book.id} book={book} />
+              <BookGrid key={index} book={book} />
             ))}
           </div>
         )}
